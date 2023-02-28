@@ -8,9 +8,9 @@ public class GitAnimal {
 
         String selectedAnimal = "";
 
-         while ( !selectedAnimal.equals("dog") && !selectedAnimal.equals("cat")){   
+         while ( !selectedAnimal.equals("dog") && !selectedAnimal.equals("cat") && !selectedAnimal.equals("fish") && !selectedAnimal.equalsIgnoreCase("bird")){   
            
-            System.out.println("Would you like to see a dog, cat, or a fish?");
+            System.out.println("Would you like to see a dog, cat, fish, or a bird?");
             selectedAnimal = inputScanner.next();
          
             if (selectedAnimal.equals("dog"))
@@ -31,6 +31,10 @@ public class GitAnimal {
             {
                 System.out.println(" __v_");
                 System.out.println("(____\\/{");
+            }
+            else if (selectedAnimal.equalsIgnoreCase("bird"))
+            {
+                System.out.println(" /\\_/\\\n((@v@))\n():::()\n VV-VV");
             }
             else
             {
