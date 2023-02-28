@@ -10,7 +10,7 @@ public class GitAnimal {
 
          while ( !selectedAnimal.equals("dog") && !selectedAnimal.equals("cat")){   
            
-            System.out.println("Would you like to see a dog or a cat?");
+            System.out.println("Would you like to see a dog, cat, or a fish?");
             selectedAnimal = inputScanner.next();
          
             if (selectedAnimal.equals("dog"))
@@ -26,6 +26,11 @@ public class GitAnimal {
                 System.out.println(" ('Y') )");
                 System.out.println(" /   \\");
                 System.out.println("(/|||/)");
+            }
+            else if (selectedAnimal.equals("fish"))
+            {
+                System.out.println(" __v_");
+                System.out.println("(____\\/{");
             }
             else
             {
