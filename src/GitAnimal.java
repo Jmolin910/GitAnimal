@@ -15,11 +15,17 @@ public class GitAnimal {
          
             if (selectedAnimal.equals("dog"))
             {
-                System.out.println("");
+                System.out.println("  .");
+                System.out.println(" ..^____/");
+                System.out.println("`-. ___ )");
+                System.out.println("  ||  || ");
             }
             else if (selectedAnimal.equals("cat"))
             {
-                System.out.println("");
+                System.out.println("  ^~^  ,");
+                System.out.println(" ('Y') )");
+                System.out.println(" /   \\");
+                System.out.println("(/|||/)");
             }
             else
             {
