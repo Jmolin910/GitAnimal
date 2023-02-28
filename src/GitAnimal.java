@@ -22,7 +22,10 @@ public class GitAnimal {
             }
             else if (selectedAnimal.equals("cat"))
             {
-                System.out.println("");
+                System.out.println("  ^~^  ,");
+                System.out.println(" ('Y') )");
+                System.out.println(" /   \\");
+                System.out.println("(/|||/)");
             }
             else
             {
